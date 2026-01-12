@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+
+# Data files (CSV, PKL)
+backend/data/raw/*.csv
+backend/data/processed/*.pkl
+backend/data/processed/*.csv
+
+# Model files
+backend/models/**/*.safetensors
+backend/models/**/*.bin
+backend/models/**/*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+EOF

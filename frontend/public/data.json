@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "adresse": "DEPOT",
+    "type": "Base",
+    "ordre_passage": 0
+  },
+  {
+    "id": 2,
+    "adresse": "r. d'Anjou",
+    "type": "Livraison",
+    "ordre_passage": 1
+  },
+  {
+    "id": 3,
+    "adresse": "r. de la Harpe",
+    "type": "Livraison",
+    "ordre_passage": 2
+  },
+  {
+    "id": 4,
+    "adresse": "r. Saint-Honoré",
+    "type": "Livraison",
+    "ordre_passage": 3
+  }
+]
